@@ -1,0 +1,275 @@
+.financeResume {
+    font-size: 16px;
+    color: var(--color-grey-1);
+    margin-top: 15px;
+
+}
+
+.buttonStyle {
+    width: 70px;
+    height: 32px;
+    background-color: #ffffff;
+    color: var(--color-grey-2);
+    border-radius: 8px;
+    border: 2px solid #F1F3F5;
+    font-weight: bold;
+    border: 1px solid #6741d9;
+    margin-left: 8px;
+}
+
+.allButton {
+    margin-top: 30px;
+
+}
+
+.sum {
+    margin-top: 10px;
+
+}
+
+.parag {
+    background-color: #eef2f5;
+    width: 343px;
+    height: 44px;
+    display: flex;
+    padding-top: 15px;
+    color: var(--color-grey-1);
+    border-radius: 8px;
+
+}
+
+.spaceParagRight {
+    margin-left: 99px;
+
+}
+
+.styleValue {
+    display: flex;
+    justify-content: space-between;
+    width: 343px;
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius: 6px;
+
+
+}
+
+.styleValue>div {
+    display: flex;
+    gap: 10px;
+    margin-right: 11px;
+
+
+}
+
+.styleValue>div>p {
+    width: 68px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-grey-4);
+    border-radius: var(--radius-2);
+    margin-right: 11px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.primeiro {
+    margin-top: 30px;
+
+
+}
+
+.styleValue>div>button {
+    background: url(/src/assets/trash.jpg);
+    width: 29px;
+    height: 26px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 9px;
+}
+
+.registerWarning {
+    width: 300px;
+    height: 94px;
+    
+    margin-top: 18px;
+    border-radius: 6px;
+    border: 1px dashed var(--color-grey-3);
+    background-color: var(--);
+
+
+}
+
+.registerWarning>p {
+
+  margin-left: 50px;
+    line-height: 40px;
+    margin-top: 15px;
+}
+
+.registerWarning>span {
+   margin-left: 65px;
+    color: var(--color-grey-2);
+
+
+}
+
+
+
+@media screen and (min-width:1024px) {
+
+    .body {
+        font-family: var(--font-family-1);
+
+    }
+
+    .financeResume {
+        font-size: 16px;
+        font-family: var(--font-family-1);
+        color: var(--color-grey-1);
+        font-weight: bold;
+    }
+
+    .secondPart {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 80px;
+
+
+    }
+
+    .allButton {
+        background-color: #ffffff;
+
+
+    }
+
+    .buttonStyle {
+        width: 70px;
+        height: 32px;
+        background-color: #ffffff;
+        color: var(--color-grey-2);
+        border-radius: 8px;
+        border: 2px solid #F1F3F5;
+        font-weight: bold;
+
+
+
+    }
+
+    .buttonStyle:hover {
+        border: 1px solid #6741d9;
+        color: #6741D9;
+        background-color: #F0ECFB;
+
+    }
+
+    .move {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .parag {
+        background-color: #eef2f5;
+        width: 1040px;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 15px;
+        font-weight: bold;
+        border-radius: 8px;
+
+
+    }
+
+    .sum {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .spaceParagLeft {
+        margin-left: 10px;
+    }
+
+    .spaceParagRight {
+        margin-right: 10px;
+    }
+
+    .primeiro {
+        width: 1040px;
+        background-color: #ffffff;
+        margin-left: 305px;
+        margin-top: 20px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+
+
+    }
+
+
+    .styleValue {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        border: 1px solid #F1F3F5;
+        height: 55px;
+        border-radius: 6px;
+
+
+
+    }
+
+    .styleValue>div>p {
+        width: 67px;
+        height: 26px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--color-grey-4);
+        border-radius: var(--radius-2);
+        margin-right: 11px;
+        margin-top: 10px;
+
+    }
+
+    .registerWarning {
+        width: 600px;
+        height: 94px;
+        margin-left: 540px;
+        margin-top: 18px;
+        border-radius: 6px;
+        border: 1px dashed var(--color-grey-3);
+        background-color: var(--);
+
+
+    }
+
+    .registerWarning>p {
+
+        display: flex;
+        justify-content: center;
+        line-height: 40px;
+        margin-top: 15px;
+    }
+
+    .registerWarning>span {
+        margin-left: 240px;
+        color: var(--color-grey-2);
+
+
+    }
+
+
+}

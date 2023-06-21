@@ -1,26 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Control Finance</title>
-    <link
-      rel="shortcut icon"
-      href="./src/assets/favicon.ico"
-      type="image/x-icon"
-    />
-    <meta
-      name="description"
-      content="Control Finance - Seu controle financeiro"
-    />
-    <link rel="stylesheet" href="./src/styles/globalStyles.css" />
-    <link rel="stylesheet" href="./src/styles/index.css" />
-  </head>
-  <body>
-    <main id="app"></main>
-    <script src="./src/scripts/modal.js"></script>
-    <script src="./src/scripts/valuesData.js"></script>
-    <script src="./src/scripts/index.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Control Finance</title>
+  <link rel="shortcut icon" href="./src/assets/favicon.ico" type="image/x-icon" />
+  <meta name="description" content="Control Finance - Seu controle financeiro" />
+  <link rel="stylesheet" href="./src/styles/globalStyles.css" />
+  <link rel="stylesheet" href="./src/styles/Header.css" />
+  <link rel="stylesheet" href="./src/styles/main.css">
+  <link rel="stylesheet" href="./src/styles/modal.css">
+  <link rel="stylesheet" href="./src/styles/mobile.css">
+</head>
+
+<body>
+  <main id="app">
+    <div class="header">
+      <h1>Control <span>Finance</span> </h1>
+      <button class="register">Registrar novo valor</button>
+    </div>
+    <div class="secondPart">
+      <p class="financeResume">Resumo financeiro</p>
+      <div class="allButton">
+        <div class="move">
+          <button class="buttonStyle" id="all">Todos</button>
+          <button class="buttonStyle" id="entry1">Entrada</button>
+          <button class="buttonStyle" id="exit1">Saída</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="sum">
+      <div class="parag">
+        <p class="spaceParagLeft">Soma dos valores</p>
+        <p class="spaceParagRight">R$ 00,00</p>
+      </div>
+    </div>
+
+    <div class="registerWarning" style="display: none;">
+      <p>Nenhum valor Cadastrado</p>
+    <span>Registrar valor novo</span>
+    </div>
+    
+
+    <div class="primeiro"></div>
+    l
+
+
+  </main>
+
+
+  <dialog class="modal__controller">
+    <div class="modal__container">
+
+      <div class="fix">
+        <p class="modal__title">Registro de valor</p>
+        <button class="modal__close">X</button>
+      </div>
+      <p class="modal__text"> Digite o valor e em seguida aperte no botão <br> referente ao tipo do valor </p>
+      <p class="modal__subtitle">Valor</p>
+      <input type="number" placeholder="R$ 00,00" id="value">
+
+      <div class="inline">
+        <p class="modal__lastTitle">Tipo de valor</p>
+        <button class="styleButton" id="entry" onclick="ativarBotao(this)">Entrada</button>
+        <button class="styleButton" id="exit" onclick="ativarBotao(this)">Saída</button>
+      </div>
+      <div class="modal__end">
+        <button class="last__button">Cancelar</button>
+        <button class="last_button_style" id="btn1">Inserir Valor</button>
+
+      </div>
+    </div>
+  </dialog>
+
+
+
+</body>
+<script src="./src/scripts/valuesData.js"></script>
+<script src="./src/scripts/index.js"></script>
+<script src="./src/scripts/modal.js"></script>
+
+
 </html>

@@ -1,0 +1,232 @@
+.modal__controller {
+    width: 343px;
+    height: 432px;
+    top: 307px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+.modal__container {
+    padding: 30px;
+
+}
+
+.modal__close {
+
+    width: 35px;
+    height: 30px;
+    background-color: #F1F3F5;
+    border-radius: 4px;
+    border: 1px solid #F1F3F5;
+
+}
+
+.modal__title {
+    color: #212529;
+    font-weight: bolder;
+
+
+}
+
+input {
+    height: 44px;
+    width: 295px;
+
+    top: 25px;
+    border-radius: 8px;
+    padding: 0px 16px 0px 16px;
+    border: 1px solid #ADB5BD;
+    margin-top: 12px;
+
+}
+
+.fix {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.styleButton {
+    width: 295px;
+    height: 32px;
+    border-radius: 8px;
+    border: 1px solid #bbbcbd;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 7px;
+}
+
+.active {
+    border: 1px solid #6741D9;
+}
+
+.inline {
+    margin-top: 25px;
+    gap: 10px;
+
+}
+
+.modal__lastTitle {
+    margin-top: 6px;
+    color: #212529;
+    font-weight: 500px;
+
+}
+
+.modal__text {
+    color: #495057;
+    margin-bottom: 15px;
+}
+
+.modal__end {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+
+}
+
+.last__button {
+    width: 139px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid #E9ECEF;
+    color: #495057;
+    font-weight: bold;
+
+
+}
+
+.last_button_style {
+    width: 101px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid #6741D9;
+    background-color: #6741D9;
+    color: white;
+
+
+}
+
+
+
+@media screen and (min-width:1024px) {
+    .modal__controller {
+        width: 428px;
+        height: 350px;
+        left: 645px;
+        top: 307px;
+        border-radius: 8px;
+    }
+
+    .modal__container {
+        padding: 20px;
+
+    }
+
+    .modal__close {
+
+        width: 35px;
+        height: 30px;
+        background-color: #F1F3F5;
+        border-radius: 4px;
+        border: 1px solid #F1F3F5;
+
+    }
+
+    .modal__title {
+        color: #212529;
+        font-weight: bolder;
+
+
+    }
+
+    input {
+        height: 44px;
+        width: 380px;
+        left: 0px;
+        top: 25px;
+        border-radius: 8px;
+        padding: 0px 16px 0px 16px;
+        border: 1px solid #ADB5BD;
+        margin-top: 12px;
+
+    }
+
+    .fix {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .styleButton {
+        width: 81px;
+        height: 32px;
+        border-radius: 8px;
+        border: 1px solid #bbbcbd;
+        background-color: #ffffff;
+
+    }
+
+    .active {
+        border: 1px solid #6741D9;
+    }
+
+    .inline {
+        display: flex;
+        margin-top: 25px;
+        gap: 10px;
+
+    }
+
+    .modal__lastTitle {
+        margin-top: 6px;
+        color: #212529;
+        font-weight: 500px;
+
+    }
+
+    .modal__text {
+        color: #495057;
+        margin-bottom: 15px;
+    }
+
+    .modal__end {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+        gap: 10px;
+
+    }
+
+    .last__button {
+        width: 81px;
+        height: 30px;
+        border-radius: 8px;
+        border: 1px solid #E9ECEF;
+        color: #495057;
+        font-weight: bold;
+
+
+    }
+
+    .last_button_style {
+        width: 101px;
+        height: 30px;
+        border-radius: 8px;
+        border: 1px solid #6741D9;
+        background-color: #6741D9;
+        color: white;
+
+
+    }
+
+
+
+
+
+
+
+}
