@@ -262,7 +262,7 @@
 
     }
     .styleValue>div>button {
-    background-image: url(https://dicionario.priberam.org/images/dplp/preto.jpg);
+        background: url(/src/assets/trash.jpg);
         width: 29px;
         height: 26px;
         background-repeat: no-repeat;
