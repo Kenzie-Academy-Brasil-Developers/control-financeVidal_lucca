@@ -83,7 +83,7 @@
 }
 
 .styleValue>div>button {
-    background: url(/src/assets/trash.jpg);
+    background: url(./src/assets/trash.jpg);
     width: 29px;
     height: 26px;
     background-repeat: no-repeat;
@@ -270,6 +270,5 @@
 
 
     }
-
 
 }
